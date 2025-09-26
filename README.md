@@ -17,11 +17,11 @@ We used the HuggingFace Sentence Transformers model:
  - Lightweight and fast, ideal for experimentation
    
 **MongoDB Approach**:
--Store embeddings + sentences in a books collection.
+- Store embeddings + sentences in a books collection.
 For queries:
--Convert query → embedding
--Compute cosine similarity with stored embeddings using NumPy.
--Return top results.
+- Convert query → embedding
+- Compute cosine similarity with stored embeddings using NumPy.
+- Return top results.
 
 **Qdrant Approach**:
 - Run Qdrant locally via Docker.
